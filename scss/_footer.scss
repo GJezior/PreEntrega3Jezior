@@ -1,0 +1,48 @@
+/* COMIENZO DE FOOTER */
+
+@mixin detalles {
+    text-align: center;
+    color: $color-blanco;
+    background-color: $color-negro;
+}
+
+@mixin detalles2 {
+    color: $color-naranja;
+    text-decoration: none;
+}
+
+@mixin detalles3 {
+    background-color: $color-naranja;
+    text-align: center;
+    color: $color-blanco;
+}
+
+footer {
+    @include detalles;
+    padding: 20px;
+    font-size: 30px;
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.redes a {
+    @include detalles2;
+    font-size: 50px;
+}
+
+.subir {
+    @include detalles3;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 3px $color-blanco;
+}
+
+/* FINAL DE FOOTER */

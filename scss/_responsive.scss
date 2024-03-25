@@ -1,0 +1,84 @@
+/* mediaqueries de textos de index*/
+
+@media only screen and (max-width: 830px) {
+    h1 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .call p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .call p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .call p {
+        font-size: 13px;
+    }
+}
+
+/* mediaqueries de textos de "acerca de"*/
+
+@media only screen and (max-width: 970px) {
+    .fundador {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .fundador {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .fundador {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .textoAcercaDe {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .textoAcercaDe {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .textoAcercaDe {
+        font-size: 12px;
+    }
+}
+
+/* mediaqueries de la imagen de "acercaDe"  */
+
+@media only screen and (max-width: 600px) {
+    .imagenA {
+        max-width: 100%;
+        height: auto;
+    }
+}

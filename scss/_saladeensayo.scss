@@ -1,0 +1,35 @@
+/* SALA DE ENSAYO */
+
+@mixin union {
+    color: $color-naranja;
+    text-align: center;
+}
+
+h3 {
+    @include union;
+    text-shadow: 2px 2px 0 $color-negro;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+}
+
+.infolocal p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.video {
+    margin-top: 30px;
+}
+
+.lista1 {
+    margin-top: 40px;
+
+    li {
+        margin-bottom: 25px;
+    }
+}
+
+/* FIN SALA DE ENSAYO */

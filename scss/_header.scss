@@ -1,0 +1,41 @@
+/* HEADER */
+
+@mixin decoracion {
+    text-decoration: none;
+    color: $color-blanco;
+}
+
+.navbar {
+    background-color: $color-naranja;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding: 30px;
+    font-size: 23px;
+    text-shadow: 0 0 5px $color-negro;
+}
+
+.nav-link {
+    @include decoracion;
+    margin-right: 10px;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+    color: $color-blanco;
+}
+
+.logo {
+    font-size: xx-large;
+    color: $color-blanco;
+    text-shadow: $color-grisoscuro;
+
+    span {
+        color: $color-grisoscuro;
+        text-shadow: 0 0 5px $color-blanco;
+    }
+}
+
+/* FIN DE HEADER */

@@ -1,0 +1,21 @@
+/* CONTACTO */
+
+.contacto {
+    background-color: $color-grisclaro;
+    width: 60%;
+    border: 5px solid $color-naranja;
+    padding: 20px;
+    border-radius: 15px;
+
+    h2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+.descripcion p {
+    margin-bottom: 30px;
+}
+
+/* FIN DE CONTACTO */

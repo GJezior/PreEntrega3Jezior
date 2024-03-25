@@ -1,0 +1,46 @@
+/* BANNER */
+
+@mixin ancla1 {
+    background-size: cover;
+    background-position: center;
+    background-color: $color-grisoscuro;
+}
+
+@mixin ancla2 {
+    color: $color-blanco;
+    float: left;
+}
+
+main {
+    background-image: url(../img/keithvuitton_LouisVuitton.jpg);
+    @include ancla1;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    color: $color-naranja;
+    text-shadow: 2px 2px 0 $color-negro;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.call {
+    @include ancla2;
+    width: 47%;
+    border: 5px solid $color-naranja;
+    margin: 30px;
+    margin-left: 130px;
+    padding: 25px;
+    border-radius: 15px;
+
+    p {
+        margin-bottom: 20px;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+/* FIN DE BANNER */

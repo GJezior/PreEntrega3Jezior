@@ -1,0 +1,62 @@
+/* PAG. PRINCIPAL */
+
+@mixin tarjeta {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.team {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: $color-gris;
+}
+
+.card {
+    height: 500px;
+    background-color: $color-grisoscuro;
+    color: $color-blanco;
+    text-align: center;
+    border: 5px solid $color-naranja;
+}
+
+.card-img1 {
+    @include tarjeta;
+    background-image: url(../img/guitarra\ electrica.jpg);
+}
+
+.card-img2 {
+    @include tarjeta;
+    background-image: url(../img/amplificador\ marshall.jpg);
+}
+
+.card-img3 {
+    @include tarjeta;
+    background-image: url(../img/pedalera\ multiefectos.jpg);
+}
+
+.card-img4 {
+    @include tarjeta;
+    background-image: url(../img/reverb.png);
+}
+
+.card-img5 {
+    @include tarjeta;
+    background-image: url(../img/thegearpage.png);
+    background-color: $color-negro;
+}
+
+.card-title {
+    color: $color-naranja;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 55px;
+}
+
+.card-desc {
+    padding: 10px;
+}
+
+/* FIN DE PAG. PRINCIPAL */

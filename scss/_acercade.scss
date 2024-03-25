@@ -1,0 +1,26 @@
+/* INICIO DE ACERCA DE */
+
+@mixin margen {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagenA {
+    height: 300px;
+    width: 300px;
+    @include margen;
+    display: flex;
+}
+
+.fundador {
+    margin-top: 20px;
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+}
+
+/* FINAL DE ACERCA DE */
