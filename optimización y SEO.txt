@@ -1,0 +1,9 @@
+Optimización y SEO:
+
+-Compresión de imagenes utilizando tinypng.com 
+-Compresión de video utilizando freeconvert.com
+-Uso de meta descripción personalizado en cada html
+-Uso de keywords en el html principal (home) para mejorar el encuentro del sitio con palabras clave
+-Limpieza y formateo del código para una lectura prolija (sin mantener código comentado/residual)
+-Comentarios entre inicio y final de cada seccion del código para una facil lectura
+-Puntaje de 100% de la web al analizarla con lighthouse
