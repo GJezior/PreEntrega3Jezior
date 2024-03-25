@@ -15,7 +15,7 @@
 <body>
     <header>
         <!-- navbar inicia -->
-        <nav class="navbar navbar-expand-sm navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand logo" href="index.html">Over<span>Drive</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -44,23 +44,18 @@
         </nav>
         <!-- navbar termina -->
     </header>
-    <main class="main2">
-        <div class="call2">
+    <main class="main2 container-fluid">
+        <div class="login container-fluid">
             <h2>Login</h2>
-            <br>
-            <form method="post" action="sendEmail.php"
-                <label>Correo electronico: <input type="email" name="Correo_electronico" placeholder="" required></label>
-                <br>
-                <br>
-                <label>Contraseña: <input type="password" name="Contraseña" placeholder="" required></label>
-                <br>
-                <br>
-                <input type="submit">
+            <form method="post" action="sendEmail.php" class="loginuser row">
+                <label>Correo electronico: <input type="email" name="Correo_electronico" placeholder="" required class="col-12"></label>
+                <label>Contraseña: <input type="password" name="Contraseña" placeholder="" required class="col-12"></label>
+                <button type="button" class="btn btn-secondary" input type="submit" class="col-12">Ingresar</button>
             </form>
-            <br>
-            <br>
-            <a href="#">Nuevo usuario</a>
-            <a href="#">Olvide mi contraseña</a>
+            <div class="row">
+            <a href="#" class="col-lg-6 col-md-12">Nuevo usuario</a>
+            <a href="#" class="col-lg-6 col-md-12">Olvide mi contraseña</a>
+            </div>
         </div>
     </main>
 

@@ -10,7 +10,7 @@
 html{
     scroll-behavior: smooth;
 }
-
+/* HEADER */
 .navbar{
     background-color: orange;
     display: flex;
@@ -44,7 +44,9 @@ html{
     color: #333;
     text-shadow: 0 0 5px #fff;
 }
+/* FIN DE HEADER */
 
+/* PAG. PRINCIPAL */
 main{
     background-image: url(../img/keithvuitton_LouisVuitton.jpg);
     background-size: cover;
@@ -54,28 +56,13 @@ main{
     width: 100%;
 }
 
-.main2{
-    background-image: url(../img/brickwall\ 2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: #333;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main3{
-    background-image: url(../img/brickwall\ 2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: #333;
-    height: 150vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h1{
+    color: orange;
+    text-shadow: 2px 2px 0 #000;    ;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .call{
@@ -89,54 +76,10 @@ main{
     border-radius: 15px;
 }
 
-.call2{
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 60%;
-    border: 5px solid orange;
-    padding: 20px;
-    border-radius: 15px;
-}
-
-h1{
-    color: orange;
-    text-shadow: 2px 2px 0 #000;    ;
-    letter-spacing: 3px;
-    text-align: left;
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
-
-h2{
-    color: orange;
-    text-shadow: 2px 2px 0 #000;    ;
-    letter-spacing: 3px;
-    margin-bottom: 10px;
-}
-
-h3{
-    color: orange;
-    text-shadow: 2px 2px 0 #000;    ;
-    letter-spacing: 3px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .call p{
     margin-bottom: 20px;
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.call2 a{
-    background-color: orange;
-    color: #fff;
-    padding: 10px 30px;
-    text-decoration: none;
-    border-radius: 15px;
-}
-
-.call2 a:hover{
-    background-color: #333;
 }
 
 .team{
@@ -202,6 +145,159 @@ h3{
     padding: 10px;
 }
 
+/* FIN DE PAG. PRINCIPAL */
+
+/* GENERALES */
+
+.main2{
+    background-image: url(../img/brickwall\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #333;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3{
+    background-image: url(../img/brickwall\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #333;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call2{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+    border: 5px solid orange;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h2{
+    color: orange;
+    text-shadow: 2px 2px 0 #000;    ;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.call2 a{
+    background-color: orange;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.call2 a:hover{
+    background-color: #333;
+}
+
+/* FIN DE GENERALES */
+
+/* SALA DE ENSAYO */
+h3{
+    color: orange;
+    text-shadow: 2px 2px 0 #000;    ;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.infolocal p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.video{
+    margin-top: 30px;
+}
+
+.lista1{
+    margin-top: 40px;
+}
+
+.lista1 li{
+    margin-bottom: 25px;
+}
+
+/* FIN SALA DE ENSAYO */
+
+/* CONTACTO */
+
+.contacto{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+    border: 5px solid orange;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contacto h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.descripcion p{
+    margin-bottom: 30px;
+}
+
+/* FIN DE CONTACTO */
+
+/* INCIO DE LOGIN */
+.login{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+    border: 5px solid orange;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.login h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.loginuser label{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.loginuser button{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.login a{
+    background-color: orange;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.login a:hover{
+    background-color: #333;
+}
+
+/* FIN DE LOGIN */
+
+/* INICIO DE ACERCA DE */
 .imagenA {
     height: 300px; 
     width:300px; 
@@ -211,12 +307,7 @@ h3{
 }
 
 .fundador {
-    margin-bottom: 20px;
     margin-top: 20px;
-}
-
-.lista1{
-    margin: auto;
 }
 
 .section2{
@@ -226,6 +317,11 @@ h3{
     padding: 70px;
 
 }
+
+/* FINAL DE ACERCA DE */
+
+
+/* COMIENZO DE FOOTER */
 
 footer{
     background-color: #000;
@@ -259,6 +355,8 @@ footer p{
     border-radius: 50%;
     box-shadow: 0 0 5px 3px #fff;
 }
+
+/* FINAL DE FOOTER */
 
 /* mediaqueries de textos de index*/
 
@@ -302,7 +400,7 @@ footer p{
 
 @media only screen and (max-width: 970px){
     .fundador{
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 
@@ -314,7 +412,7 @@ footer p{
 
 @media only screen and (max-width: 420px){
     .fundador{
-        font-size: 9px;
+        font-size: 12px;
     }
 }
 
@@ -326,13 +424,13 @@ footer p{
 
 @media only screen and (max-width: 700px){
     .textoAcercaDe{
-        font-size: 11px;
+        font-size: 12px;
     }
 }
 
 @media only screen and (max-width: 420px){
     .textoAcercaDe{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 

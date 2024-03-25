@@ -15,7 +15,7 @@
 <body>
     <header>
         <!-- navbar inicia -->
-        <nav class="navbar navbar-expand-sm navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand logo" href="index.html">Over<span>Drive</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -44,21 +44,16 @@
         </nav>
         <!-- navbar termina -->
     </header>
-    <main class="main2">
-        <div class="call2">
-            <br>
+    <main class="main2 container-fluid">
+        <div class="contacto container-fluid">
             <h2>Contacto</h2>
-            <br>
-            <section>
-            <p>En Overdrive valoramos mucho tu opinion. Siempre dispuestos a modificar y tomar sugerencias de la comunidad como tambien en busqueda de personas que esten dispuestos a convertirse en administradores y formar parte de esta crecimiente familia.</p>
-            <br>
-            <p>Es por eso que te invitamos a contactarte con nosotros por medio de nuestra casilla de sugerencias para que nos comentes tus recomendaciones, tus ideas o lo que te gustaria cambiar para mejorar la experiencia de los usuarios. Tambien estan invitados todos aquellos que deseen unirse a la familia Overdrive en busqueda de un puesto de trabajo en nuestras oficinas.</p>
-            <br>
-            <p>No te olvides de adjuntar tu CV y aclarar en la casilla de comentarios tus motivaciones y cualidades, ya sean en el area de la programacion como en los servicios de luthier. Nos contactaremos contigo lo mas rapido posible al email que nos hayas provisto. Siempre corroborar que el correo haya sido escrito de forma correcta y revisar el correo spam semanalmente en caso de que nuestra respuesta haya llegado alli.</p>
+            <section class="descripcion row">
+                <p class="col-12">En Overdrive valoramos mucho tu opinion. Siempre dispuestos a modificar y tomar sugerencias de la comunidad como tambien en busqueda de personas que esten dispuestos a convertirse en administradores y formar parte de esta crecimiente familia.</p>
+                <p class="col-12">Es por eso que te invitamos a contactarte con nosotros por medio de nuestra casilla de sugerencias para que nos comentes tus recomendaciones, tus ideas o lo que te gustaria cambiar para mejorar la experiencia de los usuarios. Tambien estan invitados todos aquellos que deseen unirse a la familia Overdrive en busqueda de un puesto de trabajo en nuestras oficinas.</p> 
+                <p class="col-12">No te olvides de adjuntar tu CV y aclarar en la casilla de comentarios tus motivaciones y cualidades, ya sean en el area de la programacion como en los servicios de luthier. Nos contactaremos contigo lo mas rapido posible al email que nos hayas provisto. Siempre corroborar que el correo haya sido escrito de forma correcta y revisar el correo spam semanalmente en caso de que nuestra respuesta haya llegado alli.</p>
             </section>
-            <br>
-            <br>
-                <form action="enviar.php" method="post" enctype="text/plain">
+            <section class="formulario row">
+                <form action="enviar.php" method="post" enctype="text/plain" class="col-12">
                 <label for="">Nombre: </label>
                 <input type="text"><br>
                 <label for="">Email:</label>
@@ -69,7 +64,7 @@
                 <textarea name="" id="comentarios" cols="30" rows="5"></textarea><br>
                 <input type="submit">
                 </form>
-            <br>
+            </section>
         </div>
     </main>
 
